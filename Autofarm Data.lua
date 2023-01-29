@@ -1,6 +1,6 @@
-local QuestsData = {}
+local QuestsData = {QuestsNames, Quests}
 
-local QuestsData.Quests = {
+local Quests = {
     Bandit = {
         Enemy = "Bandit [Lv. 5]",
         QuestName = "BanditQuest1",
@@ -195,6 +195,8 @@ local QuestsData.Quests = {
     }
 }
 
+QuestsData.Quests = Quests
+
 function QuestsData.getQuest()
     for i,v in pairs(game.Workspace.NPCs:GetChildren()) do
         for i,k in pairs(Quests) do
@@ -219,10 +221,12 @@ function QuestsData.CheckForQuest()
 	return false
 end
 
-local QuestsData.QuestsNames = {}
+local QuestsNames = {}
 
-for i,v in pairs(QuestsData.Quests) do
-    table.insert(QuestsData.QuestsNames, v.EnemyName)
+for i,v in pairs(Quests) do
+    table.insert(QuestsNames, v.EnemyName)
 end
+
+QuestsData.QuestsNames = QuestsNames
 
 return QuestsData
