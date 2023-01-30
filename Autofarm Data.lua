@@ -192,6 +192,22 @@ local Quests = {
         LevelQuest = 2,
         CFramePos = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0),
         QuestGiver = "Gan Fall Adventurer"
+    },
+    Galley_Pirate = {
+        Enemy = "Galley Pirate [Lv. 625]",
+	QuestName = "FountainQuest",
+	EnemyName = "Gallery Pirate",
+	LevelQuest = 1,
+	CFramePos = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381),
+	QuestGiver = "Freezeburg Quest Giver"
+    },
+    Galley_Captain = {
+        Enemy = "Galley Captain [Lv. 650]",
+        QuestName = "FountainQuest",
+	EnemyName = "Gallery Captain",
+	LevelQuest = 2,
+	CFramePos = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381),
+	QuestGiver = "Freezeburg Quest Giver"
     }
 }
 
