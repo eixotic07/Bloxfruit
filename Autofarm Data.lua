@@ -197,7 +197,7 @@ local Quests = {
 
 QuestsData.Quests = Quests
 
-function QuestsData.getQuest()
+function QuestsData.getQuest(Enemy)
     for i,v in pairs(game.Workspace.NPCs:GetChildren()) do
         for i,k in pairs(Quests) do
             if v.Name:find(k.QuestGiver) and k.EnemyName == Enemy then
