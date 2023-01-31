@@ -278,6 +278,23 @@ local Quests = {
         CFramePos = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268),
         QuestGiver = "Graveyard Quest Giver"
     },
+
+    Snow_Trooper = {
+        Enemy =  "Snow Trooper [Lv. 1000]",
+        QuestName = "SnowMountainQuest",
+        EnemyName = "Snow Trooper",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(609.858826, 400.119904, -5372.25928, -0.374604106, 0, 0.92718488, 0, 1, 0, -0.92718488, 0, -0.374604106),
+        QuestGiver = "Snow Quest Giver"
+    },
+    Winter_Warrior = {
+        Enemy = "Winter Warrior [Lv. 1050]",
+        QuestName = "SnowMountainQuest",
+        EnemyName = "Winter Warrior",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(609.858826, 400.119904, -5372.25928, -0.374604106, 0, 0.92718488, 0, 1, 0, -0.92718488, 0, -0.374604106),
+        QuestGiver = "Snow Quest Giver"
+    }
     
 
 }
