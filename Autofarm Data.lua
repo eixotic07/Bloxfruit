@@ -1,6 +1,8 @@
 local QuestsData = {QuestsNames, Quests}
 
 local Quests = {
+    -- First Sea
+	
     Bandit = {
         Enemy = "Bandit [Lv. 5]",
         QuestName = "BanditQuest1",
@@ -195,20 +197,89 @@ local Quests = {
     },
     Galley_Pirate = {
         Enemy = "Galley Pirate [Lv. 625]",
-	QuestName = "FountainQuest",
-	EnemyName = "Galley Pirate",
-	LevelQuest = 1,
-	CFramePos = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381),
-	QuestGiver = "Freezeburg Quest Giver"
+	    QuestName = "FountainQuest",
+	    EnemyName = "Galley Pirate",
+	    LevelQuest = 1,
+	    CFramePos = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381),
+	    QuestGiver = "Freezeburg Quest Giver"
     },
     Galley_Captain = {
         Enemy = "Galley Captain [Lv. 650]",
         QuestName = "FountainQuest",
-	EnemyName = "Galley Captain",
-	LevelQuest = 2,
-	CFramePos = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381),
-	QuestGiver = "Freezeburg Quest Giver"
-    }
+	    EnemyName = "Galley Captain",
+	    LevelQuest = 2,
+	    CFramePos = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381),
+	    QuestGiver = "Freezeburg Quest Giver"
+    },
+	
+    -- Second Sea
+
+    Raider = {
+        Enemy = "Raider [Lv. 700]",
+        QuestName = "Area1Quest",
+        EnemyName = "Raider",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-429.543518, 71.7699966, 1836.18188, -0.22495985, 0, -0.974368095, 0, 1, 0, 0.974368095, 0, -0.22495985),
+        QuestGiver = "Area 1 Quest Giver"
+    },
+    Mercenary = {
+        Enemy = "Mercenary [Lv. 725]",
+        QuestName = "Area1Quest",
+        EnemyName = "Mercenary",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-429.543518, 71.7699966, 1836.18188, -0.22495985, 0, -0.974368095, 0, 1, 0, 0.974368095, 0, -0.22495985),
+        QuestGiver = "Area 2 Quest Giver"
+    },
+    Swan_Pirate = {
+        Enemy = "Swan Pirate [Lv. 775]",
+        QuestName = "Area2Quest",
+        EnemyName = "Spawn Pirate",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(638.43811, 71.769989, 918.282898, 0.139203906, 0, 0.99026376, 0, 1, 0, -0.99026376, 0, 0.139203906),
+        QuestGiver = "Area 2 Quest Giver"
+    },
+    Factory_Staff = {
+        Enemy = "Factory Staff [Lv. 800]",
+        QuestName = "Area2Quest",
+        EnemyName = "Factory Staff",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(638.43811, 71.769989, 918.282898, 0.139203906, 0, 0.99026376, 0, 1, 0, -0.99026376, 0, 0.139203906),
+        QuestGiver = "Area 2 Quest Giver"
+    },
+    Marine_Lieutenant = {
+        Enemy = "Marine Lieutenant [Lv. 875]",
+        QuestName = "MarineQuest3",
+        EnemyName = "Marine Lieutenant",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268),
+        QuestGiver = "Marine Quest Giver"
+    },
+    Marine_Captain = {
+        Enemy = "Marine Captain [Lv. 900]",
+        QuestName = "MarineQuest3",
+        EnemyName = "Marine Captain",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268),
+        QuestGiver = "Marine Quest Giver"
+    },
+    Zombie = {
+        Enemy = "Zombie [Lv. 950]",
+        QuestName = "ZombieQuest",
+        EnemyName = "Zombie",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268),
+        QuestGiver = "Graveyard Quest Giver"
+    },
+    Vampire = {
+        Enemy = "Vampire [Lv. 975]",
+        QuestName = "ZombieQuest",
+        EnemyName = "Vampire",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268),
+        QuestGiver = "Graveyard Quest Giver"
+    },
+    
+
 }
 
 QuestsData.Quests = Quests
