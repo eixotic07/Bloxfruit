@@ -378,7 +378,7 @@ local Quests = {
 	EnemyName = "Ship Deckhand",
         LevelQuest = 1,
         CFramePos = CFrame.new(1037.80127, 125.092171, 32911.6016),
-        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
         QuestGiver = "Rear Crew Quest Giver",
         World = 2
     },
@@ -388,7 +388,7 @@ local Quests = {
 	EnemyName = "Ship Engineer",
         LevelQuest = 2,
         CFramePos = CFrame.new(1037.80127, 125.092171, 32911.6016),
-        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
         QuestGiver = "Rear Crew Quest Giver",
         World = 2
     },
@@ -398,7 +398,7 @@ local Quests = {
 	EnemyName = "Ship Steward",
         LevelQuest = 1,
         CFramePos = CFrame.new(968.80957, 125.092171, 33244.125),
-        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
         QuestGiver = "Front Crew Quest Giver",
         World = 2
     },
@@ -408,7 +408,7 @@ local Quests = {
 	EnemyName = "Ship Officer",
 	LevelQuest = 2,
         CFramePos = CFrame.new(968.80957, 125.092171, 33244.125),
-        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
         QuestGiver = "Front Crew Quest Giver",
         World = 2
     }
