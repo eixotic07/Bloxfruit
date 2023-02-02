@@ -171,6 +171,7 @@ local Quests = {
         EnemyName = "Fishman Warrior",
         LevelQuest = 1,
         CFramePos = CFrame.new(61122.65234375, 18.497442245483, 1569.3997802734),
+        Entrance = Vector3.new(61163.8515625, 11.6796875, 1819.7841796875),
         QuestGiver = "King Neptune",
         World = 1
     },
@@ -180,6 +181,7 @@ local Quests = {
         EnemyName = "Fishman Commando",
         LevelQuest = 2,
         CFramePos = CFrame.new(61122.65234375, 18.497442245483, 1569.3997802734),
+        Entrance = Vector3.new(61163.8515625, 11.6796875, 1819.7841796875),
         QuestGiver = "King Neptune",
         World = 1
     },
@@ -189,6 +191,7 @@ local Quests = {
         EnemyName = "God's Guard",
         LevelQuest = 1,
         CFramePos = CFrame.new(-4721.88867, 843.874695, -1949.96643, 0.996191859, -0, -0.0871884301, 0, 1, -0, 0.0871884301, 0, 0.996191859),
+        Entrance = Vector3.new(-4607.82275, 872.54248, -1667.55688),
         QuestGiver = "Mole",
         World = 1
     },
@@ -198,6 +201,7 @@ local Quests = {
         EnemyName = "Shanda",
         LevelQuest = 2,
         CFramePos = CFrame.new(-7894.6176757813, 5547.1416015625, -380.29119873047),
+        Entrance = Vector3.new(-7894.6176757813, 5547.1416015625, -380.29119873047),
         QuestGiver = "Mole",
         World = 1
     },
@@ -207,6 +211,7 @@ local Quests = {
         EnemyName = "Royal Squad",
         LevelQuest = 1,
         CFramePos = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+        Entrance = Vector3.new(-7894.6176757813, 5547.1416015625, -380.29119873047),
         QuestGiver = "Gan Fall Adventurer",
         World = 1
     },
@@ -216,6 +221,7 @@ local Quests = {
         EnemyName = "Royal Soldier",
         LevelQuest = 2,
         CFramePos = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+        Entrance = Vector3.new(-7894.6176757813, 5547.1416015625, -380.29119873047),
         QuestGiver = "Gan Fall Adventurer",
         World = 1
     },
@@ -365,8 +371,43 @@ local Quests = {
         CFramePos = CFrame.new(-5428.03174, 15.0622921, -5299.43457, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213),
         QuestGiver = "Fire Quest Giver",
         World = 2
+    },
+    Ship_Deckhand = {
+        Enemy = "Ship Deckhand [Lv. 1250]",
+        QuestName = "ShipQuest1",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(1037.80127, 125.092171, 32911.6016),
+        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        QuestGiver = "Rear Crew Quest Giver",
+        World = 2
+    },
+    Ship_Engineer = {
+        Enemy = "Ship Engineer [Lv. 1275]",
+        QuestName = "ShipQuest1",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(1037.80127, 125.092171, 32911.6016),
+        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        QuestGiver = "Rear Crew Quest Giver",
+        World = 2
+    },
+    Ship_Steward = {
+        Enemy = "Ship Steward [Lv. 1300]",
+        QuestName = "ShipQuest2",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(968.80957, 125.092171, 33244.125),
+        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        QuestGiver = "Front Crew Quest Giver",
+        World = 2
+    },
+    Ship_Officer = {
+        Enemy = "Ship Officer [Lv. 1325]",
+        QuestName = "ShipQuest2",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(968.80957, 125.092171, 33244.125),
+        Entrance = Vector3.new(923.21252441406, 126.9760055542, 32852.83203125),
+        QuestGiver = "Front Crew Quest Giver",
+        World = 2
     }
-
 }
 
 QuestsData.Quests = Quests
