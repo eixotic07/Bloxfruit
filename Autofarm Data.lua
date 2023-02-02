@@ -375,7 +375,7 @@ local Quests = {
     Ship_Deckhand = {
         Enemy = "Ship Deckhand [Lv. 1250]",
         QuestName = "ShipQuest1",
-	EnemyName = "Ship Deckhand",
+	    EnemyName = "Ship Deckhand",
         LevelQuest = 1,
         CFramePos = CFrame.new(1037.80127, 125.092171, 32911.6016),
         Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
@@ -385,7 +385,7 @@ local Quests = {
     Ship_Engineer = {
         Enemy = "Ship Engineer [Lv. 1275]",
         QuestName = "ShipQuest1",
-	EnemyName = "Ship Engineer",
+	    EnemyName = "Ship Engineer",
         LevelQuest = 2,
         CFramePos = CFrame.new(1037.80127, 125.092171, 32911.6016),
         Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
@@ -395,7 +395,7 @@ local Quests = {
     Ship_Steward = {
         Enemy = "Ship Steward [Lv. 1300]",
         QuestName = "ShipQuest2",
-	EnemyName = "Ship Steward",
+	    EnemyName = "Ship Steward",
         LevelQuest = 1,
         CFramePos = CFrame.new(968.80957, 125.092171, 33244.125),
         Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
@@ -405,11 +405,43 @@ local Quests = {
     Ship_Officer = {
         Enemy = "Ship Officer [Lv. 1325]",
         QuestName = "ShipQuest2",
-	EnemyName = "Ship Officer",
-	LevelQuest = 2,
+	    EnemyName = "Ship Officer",
+	    LevelQuest = 2,
         CFramePos = CFrame.new(968.80957, 125.092171, 33244.125),
         Entrance = Vector3.new(923.2125244140625, 126.97600555419922, 32852.83203125),
         QuestGiver = "Front Crew Quest Giver",
+        World = 2
+    },
+    Arctic_Warrior = {
+        Enemy = "Arctic Warrior [Lv. 1350]",
+        QuestName = "FrostQuest",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909),
+        QuestGiver = "Frost Quest Giver",
+        World = 2
+    },
+    Snow_Lurker = {
+        Enemy = "Snow Lurker [Lv. 1375]",
+        QuestName = "FrostQuest",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909),
+        QuestGiver = "Frost Quest Giver",
+        World = 2
+    },
+    Sea_Soldier = {
+        Enemy = "Sea Soldier [Lv. 1425]",
+        QuestName = "ForgottenQuest",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376),
+        QuestGiver = "Forgotten Quest Giver",
+        World = 2
+    },
+    Water_Fighter = {
+        Enemy = "Water Fighter [Lv. 1450]",
+        QuestName = "ForgottenQuest",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376),
+        QuestGiver = "Forgotten Quest Giver",
         World = 2
     }
 }
@@ -631,7 +663,27 @@ local Levels = {
     Ship_Officer = {
         Enemy = "Ship Officer",
         LowestLevel = 1325,
-        MaxLevel = 2000
+        MaxLevel = 1375
+    },
+    Arctic_Warrior = {
+        Enemy = "Arctic Warrior",
+        LowestLevel = 1375,
+        MaxLevel = 1425
+    },
+    Snow_Lurker = {
+        Enemy = "Snow Lurker",
+        LowestLevel = 1375,
+        MaxLevel = 1425
+    },
+    Sea_Soldier = {
+        Enemy = "Sea Soldier",
+        LowestLevel = 1425,
+        MaxLevel = 1450
+    },
+    Water_Fighter = {
+        Enemy = "Water Fighter",
+        LowestLevel = 1450,
+        MaxLevel = 2450
     }
 }
 
