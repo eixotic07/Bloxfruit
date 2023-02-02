@@ -414,6 +414,227 @@ local Quests = {
     }
 }
 
+local Levels = {
+    Bandit = {
+        Enemy = "Bandit",
+        LowestLevel = 1,
+        MaxLevel = 5,
+    },
+    Monkey = {
+        Enemy = "Monkey",
+        LowestLevel = 14,
+        MaxLevel = 20
+    },
+    Gorilla = {
+        Enemy = "Gorilla",
+        LowestLevel = 20,
+        MaxLevel = 35
+    },
+    Pirate = {
+        Enemy = "Pirate",
+        LowestLevel = 35,
+        MaxLevel = 45
+    },
+    Brute = {
+        Enemy = "Brute",
+        LowestLevel = 45,
+        MaxLevel = 60
+    },
+    Desert_Bandit = {
+        Enemy = "Desert Bandit",
+        LowestLevel = 60,
+        MaxLevel = 70
+    },
+    Desert_Officer = {
+        Enemy = "Desert Officer",
+        LowestLevel = 70,
+        MaxLevel = 90
+    },
+    Snow_Bandit = {
+        Enemy = "Snow Bandit",
+        LowestLevel = 90,
+        MaxLevel = 100
+    },
+    Snowman = {
+        Enemy = "Snowman",
+        LowestLevel = 100,
+        MaxLevel = 120
+    },
+    Chief_Petty_Officer = {
+        Enemy = "Chief Petty Officer",
+        LowestLevel = 120,
+        MaxLevel = 150
+    },
+    Sky_Bandit = {
+        Enemy = "Sky Bandit",
+        LowestLevel = 150,
+        MaxLevel = 175
+    },
+    Dark_Master = {
+        Enemy = "Dark Master",
+        LowestLevel = 175,
+        MaxLevel = 190
+    },
+    Prisoner = {
+        Enemy = "Prisoner",
+        LowestLevel = 190,
+        MaxLevel = 210
+    },
+    Dangerous_Prisoner = {
+        Enemy = "Dangerous Prisoner",
+        LowestLevel = 210,
+        MaxLevel = 250
+    },
+    Toga_Warrior = {
+        Enemy = "Toga Warrior",
+        LowestLevel = 250,
+        MaxLevel = 275
+    },
+    Gladiator = {
+        Enemy = "Gladiator",
+        LowestLevel = 275,
+        MaxLevel = 300
+    },
+    Military_Soldier = {
+        Enemy = "Military Soldier",
+        LowestLevel = 300,
+        MaxLevel = 325
+    },
+    Military_Spy = {
+        Enemy = "Military Spy",
+        LowestLevel = 325,
+        MaxLevel = 375
+    },
+    Fishman_Warror = {
+        Enemy = "Fishman Warrior",
+        LowestLevel = 375,
+        MaxLevel = 400
+    },
+    Fishman_Commando = {
+        Enemy = "Fishman Commando",
+        LowestLevel = 400,
+        MaxLevel = 450
+    },
+    God_Guard = {
+        Enemy = "God's Guard",
+        LowestLevel = 450,
+        MaxLevel = 475
+    },
+    Shanda = {
+        Enemy = "Shanda",
+        LowestLevel = 475,
+        MaxLevel = 525
+    },
+    Royal_Squad = {
+        Enemy = "Royal Squad",
+        LowestLevel = 525,
+        MaxLevel = 550
+    },
+    Royal_Soldier = {
+        Enemy = "Royal Soldier",
+        LowestLevel = 550,
+        MaxLevel = 625
+    },
+    Gallery_Pirate = {
+        Enemy = "Gallery Pirate",
+        LowestLevel = 625,
+        MaxLevel = 700
+    },
+
+    -- Second Sea
+
+    Raider = {
+        Enemy = "Raider",
+        LowestLevel = 700,
+        MaxLevel = 725
+    },
+    Mercenary = {
+        Enemy = "Mercenary",
+        LowestLevel = 725,
+        MaxLevel = 775
+    },
+    Swan_Pirate = {
+        Enemy = "Swan Pirate",
+        LowestLevel = 775,
+        MaxLevel = 800
+    },
+    Factory_Staff = {
+        Enemy = "Factory Staff",
+        LowestLevel = 800,
+        MaxLevel = 875
+    },
+    Marine_Lieutenant = {
+        Enemy = "Marine Lieutenant",
+        LowestLevel = 875,
+        MaxLevel = 900
+    },
+    Marine_Captain = {
+        Enemy = "Marine Captain",
+        LowestLevel = 900,
+        MaxLevel = 950
+    },
+    Zombie = {
+        Enemy = "Zombie",
+        LowestLevel = 950,
+        MaxLevel = 975
+    },
+    Vampire = {
+        Enemy = "Vampire",
+        LowestLevel = 975,
+        MaxLevel = 1000
+    },
+    Snow_Trooper = {
+        Enemy = "Snow Trooper",
+        LowestLevel = 1000,
+        MaxLevel = 1050
+    },
+    Winter_Warrior = {
+        Enemy = "Winter Warrior",
+        LowestLevel = 1050,
+        MaxLevel = 1100
+    },
+    Lab_Subordinate = {
+        Enemy = "Lab Subordinate",
+        LowestLevel = 1100,
+        MaxLevel = 1125
+    },
+    Horned_Warrior = {
+        Enemy = "Horned Warrior",
+        LowestLevel = 1125,
+        MaxLevel = 1175
+    },
+    Magma_Ninja = {
+        Enemy = "Magma Ninja",
+        LowestLevel = 1175,
+        MaxLevel = 1200
+    },
+    Lava_Pirate = {
+        Enemy = "Lava Pirate",
+        LowestLevel = 1200,
+        MaxLevel = 1250
+    },
+    Ship_Deckhand = {
+        Enemy = "Ship Deckhand",
+        LowestLevel = 1250,
+        MaxLevel = 1275
+    },
+    Ship_Engineer = {
+        Enemy = "Ship Engineer",
+        LowestLevel = 1275,
+        MaxLevel = 1300
+    },
+    Ship_Steward = {
+        Enemy = "Ship Steward",
+        LowestLevel = 1300,
+        MaxLevel = 1325
+    },
+    Ship_Officer = {
+        Enemy = "Ship Officer",
+        LowestLevel = 1325,
+        MaxLevle = 1400
+    }
+}
+
 QuestsData.Quests = Quests
 
 function QuestsData.getQuest(Enemy)
@@ -438,6 +659,14 @@ function QuestsData.CheckForQuest()
 	end
 
 	return false
+end
+
+function QuestsData.CalculateLevel(Level)
+    for i,v in pairs(Levels) do
+        if Level >= (v.LowestLevel + 0.1) and Level <= (v.MaxLevel + 0.1) then
+            return v.Enemy
+        end
+    end
 end
 
 local FirstSea = {}
