@@ -631,7 +631,7 @@ local Levels = {
     Ship_Officer = {
         Enemy = "Ship Officer",
         LowestLevel = 1325,
-        MaxLevle = 1400
+        MaxLevel = 1400
     }
 }
 
