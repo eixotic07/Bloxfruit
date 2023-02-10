@@ -244,7 +244,9 @@ local Quests = {
         World = 1
     },
 	
+
     -- Second Sea
+
 
     Raider = {
         Enemy = "Raider [Lv. 700]",
@@ -415,6 +417,7 @@ local Quests = {
     Arctic_Warrior = {
         Enemy = "Arctic Warrior [Lv. 1350]",
         QuestName = "FrostQuest",
+        EnemyName = "Arctic Warrior",
         LevelQuest = 1,
         CFramePos = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909),
         QuestGiver = "Frost Quest Giver",
@@ -423,6 +426,7 @@ local Quests = {
     Snow_Lurker = {
         Enemy = "Snow Lurker [Lv. 1375]",
         QuestName = "FrostQuest",
+        EnemyName = "Snow Lurker",
         LevelQuest = 2,
         CFramePos = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909),
         QuestGiver = "Frost Quest Giver",
@@ -431,6 +435,7 @@ local Quests = {
     Sea_Soldier = {
         Enemy = "Sea Soldier [Lv. 1425]",
         QuestName = "ForgottenQuest",
+        EnemyName = "Sea Soldier",
         LevelQuest = 1,
         CFramePos = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376),
         QuestGiver = "Forgotten Quest Giver",
@@ -439,10 +444,250 @@ local Quests = {
     Water_Fighter = {
         Enemy = "Water Fighter [Lv. 1450]",
         QuestName = "ForgottenQuest",
+        EnemyName = "Water Fighter",
         LevelQuest = 2,
         CFramePos = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376),
         QuestGiver = "Forgotten Quest Giver",
         World = 2
+    },
+
+
+    -- Third Sea
+
+
+    Pirate_Millionaire = {
+        Enemy = "Pirate Millionaire [Lv. 1500]",
+        QuestName = "PiratePortQuest",
+        EnemyName = "Pirate Millionaire",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-290.074677, 42.9034653, 5581.58984, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627),
+        QuestGiver = "",
+        World = 3
+    },
+    Pistol_Billonaire = {
+        Enemy = "Pistol Billionaire [Lv. 1525]",
+        QuestName = "PiratePortQuest",
+        EnemyName = "Pistol Billionaire",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-290.074677, 42.9034653, 5581.58984, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627),
+        QuestGiver = "",
+        World = 3
+    },
+    Dragon_Crew_Warrior = {
+        Enemy = "Dragon Crew Warrior [Lv. 1575]",
+        QuestName = "AmazonQuest",
+        EnemyName = "Dragon Crew Warrior",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(5832.83594, 51.6806107, -1101.51563, 0.898790359, -0, -0.438378751, 0, 1, -0, 0.438378751, 0, 0.898790359),
+        QuestGiver = "",
+        Wolrd = 3
+    },
+    Dragon_Crew_Archer = {
+        Enemy = "Dragon Crew Archer [Lv. 1600]",
+        QuestName = "AmazonQuest",
+        EnemyName = "Dragon Crew Archer",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(5833.1147460938, 51.60498046875, -1103.0693359375),
+        QuestGiver = "",
+        World = 3
+    },
+    Female_Islander = {
+        Enemy = "Female Islander [Lv. 1625]",
+        QuestName = "AmazonQuest2",
+        EnemyName = "Female Islander",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(5446.8793945313, 601.62945556641, 749.45672607422),
+        QuestGiver = "",
+        World = 3
+    },
+    Giant_Islander = {
+        Enemy = "Giant Islander [Lv. 1650]",
+        QuestName = "AmazonQuest2",
+        EnemyName = "Giant Islander",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(5446.8793945313, 601.62945556641, 749.45672607422),
+        QuestGiver = "",
+        Wolrd = 3
+    },
+    Marine_Commodore = {
+        Enemy = "Marine Commodore [Lv. 1700]",
+        QuestName = "MarineTreeIsland",
+        EnemyName = "Marine Commodore",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(2180.54126, 27.8156815, -6741.5498, -0.965929747, 0, 0.258804798, 0, 1, 0, -0.258804798, 0, -0.965929747),
+        QuestGiver = "",
+        World = 3
+    },
+    Marine_Rear_Admiral = {
+        Enemy = "Marine Rear Admiral [Lv. 1725]",
+        QuestName = "MarineTreeIsland",
+        EnemyName = "Marine Rear Admiral",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(2180.54126, 27.8156815, -6741.5498, -0.965929747, 0, 0.258804798, 0, 1, 0, -0.258804798, 0, -0.965929747),
+        QuestGiver = "",
+        World = 3
+    },
+    Fishman_Raider = {
+        Enemy = "Fishman Raider [Lv. 1775]",
+        QuestName = "DeepForestIsland3",
+        EnemyName = "Fishman Raider",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-10581.6563, 330.872955, -8761.18652, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213),
+        QuestGiver = "",
+        World = 3
+    },
+    Fishman_Captain = {
+        Enemy = "Fishman Captain [Lv. 1800]",
+        QuestName = "DeepForestIsland3",
+        EnemyName = "Fishman Captain",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-10581.6563, 330.872955, -8761.18652, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213),
+        QuestGiver = "",
+        World = 3
+    },
+    Forest_Pirate = {
+        Enemy = "Forest Pirate [Lv. 1825]",
+        QuestName = "DeepForestIsland",
+        EnemyName = "Forest Pirate",
+        LevelQuest = 1,
+        CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247),
+        QuestGiver = "",
+        World = 3
+    },
+    Mythological_Pirate = {
+        Enemy = "Mythological Pirate [Lv. 1850]",
+        QuestName = "DeepForestQuest",
+        EnemyName = "Mythological Pirate",
+        LevelQuest = 2,
+        CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247),
+        QuestGiver = "",
+        World = 3
+    },
+    Jungle_Pirate = {
+        Enemy = "Jungle Pirate [Lv. 1900]",
+        QuestName = "DeepForestIsland2",
+        EnemyName = "Jungle Pirate",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-12680.3818, 389.971039, -9902.01953, -0.0871315002, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, -0.0871315002),
+        QuestGiver = "",
+        World = 3
+    },
+    Musketeer_Pirate = {
+        Enemy = "Musketeer Pirate [Lv. 1925]",
+        QuestName = "DeepForestIsland2",
+        EnemyName = "Musketeer Pirate",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-12680.3818, 389.971039, -9902.01953, -0.0871315002, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, -0.0871315002),
+        QuestGiver = "",
+        World = 3
+    },
+    Reborn_Skeleton = {
+        Enemy = "Reborn Skeleton [Lv. 1975]",
+        QuestName = "HauntedQuest1",
+        EnemyName = "Reborn Skeleton",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-9479.2168, 141.215088, 5566.09277, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+        QuestGiver = "",
+        World = 3
+    },
+    Living_Zombie = {
+        Enemy = "Living Zombie [Lv. 2000]",
+        QuestName = "HauntedQuest1",
+        EnemyName = "Living Zombie",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-9479.2168, 141.215088, 5566.09277, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+        QuestGiver = "",
+        World = 3
+    },
+    Demonic_Soul = {
+        Enemy = "Demonic Soul [Lv. 2025]",
+        QuestName = "HauntedQuest2",
+        EnemyName = "Demonic Soul",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-9479.2168, 141.215088, 5566.09277, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+        QuestGiver = "",
+        World = 3
+    },
+    Posessed_Mummy = {
+        Enemy = "Posessed Mummy [Lv. 2050]",
+        QuestName = "HauntedQuest2",
+        EnemyName = "Posessed Mummy",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-9516.99316, 172.017181, 6078.46533, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+        QuestGiver = "",
+        World = 3
+    },
+    Peanut_Scout = {
+        Enemy = "Peanut Scout [Lv. 2075]",
+        QuestName = "NutsIslandQuest",
+        EnemyName = "Peanut Scout",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-2104.3908691406, 38.104167938232, -10194.21875, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+        QuestGiver = "",
+        World = 3
+    },
+    Peanut_President = {
+        Enemy = "Peanut President [Lv. 2100]",
+        QuestName = "NutsIslandQuest",
+        EnemyName = "Peanut President",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-2104.3908691406, 38.104167938232, -10194.21875, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+        QuestGiver = "",
+        World = 3
+    },
+    Ice_Cream_Chef = {
+        Enemy = "Ice Cream Chef [Lv. 2125]",
+        QuestName = "IceCreamIslandQuest",
+        EnemyName = "Ice Cream Chef",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-819.84533691406, 65.845329284668, -10965.487304688),
+        QuestGiver = "",
+        World = 3
+    },
+    Ice_Cream_Commander = {
+        Enemy = "Ice Cream Commander [Lv. 2150]",
+        QuestName = "IceCreamIslandQuest",
+        EnemyName = "Ice Cream Commander",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-819.84533691406, 65.845329284668, -10965.487304688),
+        QuestGiver = "",
+        World = 3
+    },
+    Cookie_Crafter = {
+        Enemy = "Cookie Crafter [Lv. 2200]",
+        QuestName = "CakeQuest1",
+        EnemyName = "Cookie Crafter",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-2022.29858, 36.9275894, -12030.9766, -0.961273909, 0, -0.275594592, 0, 1, 0, 0.275594592, 0, -0.961273909),
+        QuestGiver = "",
+        World = 3
+    },
+    Cake_Guard = {
+        Enemy = "Cake Guard [Lv. 2225]",
+        QuestName = "CakeQuest1",
+        EnemyName = "Cake Guard",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-2022.29858, 36.9275894, -12030.9766, -0.961273909, 0, -0.275594592, 0, 1, 0, 0.275594592, 0, -0.961273909),
+        QuestGiver = "",
+        World = 3
+    },
+    Baking_Staff = {
+        Enemy = "Baking Staff [Lv. 2250]",
+        QuestName = "CakeQuest2",
+        EnemyName = "Baking Staff",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-1928.31763, 37.7296638, -12840.626, 0.951068401, -0, -0.308980465, 0, 1, -0, 0.308980465, 0, 0.951068401),
+        QuestGiver = "",
+        World = 3
+    },
+    Head_Baker = {
+        Enemy = "Head Baker [Lv. 2275]",
+        QuestName = "CakeQuest2",
+        EnemyName = "Head Baker",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-1928.31763, 37.7296638, -12840.626, 0.951068401, -0, -0.308980465, 0, 1, -0, 0.308980465, 0, 0.951068401),
+        QuestGiver = "",
+        World = 3
     }
 }
 
@@ -570,10 +815,12 @@ local Levels = {
     Gallery_Pirate = {
         Enemy = "Gallery Pirate",
         LowestLevel = 625,
-        MaxLevel = 700
+        MaxLevel = 2400
     },
 
+
     -- Second Sea
+
 
     Raider = {
         Enemy = "Raider",
@@ -683,7 +930,142 @@ local Levels = {
     Water_Fighter = {
         Enemy = "Water Fighter",
         LowestLevel = 1450,
-        MaxLevel = 2450
+        MaxLevel = 2400
+    },
+
+    
+    -- Third Sea
+
+
+    Pirate_Millionaire = {
+        Enemy = "Pirate Millionaire",
+        LowestLevel = 1500,
+        MaxLevel = 1525
+    },
+    Pistol_Billonaire = {
+        Enemy = "Pistol Billionaire",
+        LowestLevel = 1525,
+        MaxLevel = 1575
+    },
+    Dragon_Crew_Warrior = {
+        Enemy = "Dragon Crew Warrior",
+        LowestLevel = 1575,
+        MaxLevel = 1600
+    },
+    Dragon_Crew_Archer = {
+        Enemy = "Dragon Crew Archer",
+        LowestLevel = 1600,
+        MaxLevel = 1625
+    },
+    Female_Islander = {
+        Enemy = "Female Islander",
+        LowestLevel = 1625,
+        MaxLevel = 1650
+    },
+    Giant_Islander = {
+        Enemy = "Giant Islander",
+        LowestLevel = 1650,
+        MaxLevel = 1700
+    },
+    Marine_Commodore = {
+        Enemy = "Marine Commodore",
+        LowestLevel = 1700,
+        MaxLevel = 1725
+    },
+    Marine_Rear_Admiral = {
+        Enemy = "Marine Rear Admiral",
+        LowestLevel = 1725,
+        MaxLevel = 1775
+    },
+    Fishman_Raider = {
+        Enemy = "Fishman Raider",
+        LowestLevel = 1775,
+        MaxLevel = 1800
+    },
+    Fishman_Captain = {
+        Enemy = "Fishman Captain",
+        LowestLevel = 1800,
+        MaxLevel = 1825
+    },
+    Forest_Pirate = {
+        Enemy = "Forest Pirate",
+        LowestLevel = 1825,
+        MaxLevel = 1850
+    },
+    Mythological_Pirate = {
+        Enemy = "Mythological Pirate",
+        LowestLevel = 1850,
+        MaxLevel = 1900
+    },
+    Jungle_Pirate = {
+        Enemy = "Jungle Pirate",
+        LowestLevel = 1900,
+        MaxLevel = 1925
+    },
+    Musketeer_Pirate = {
+        Enemy = "Musketeer Pirate",
+        LowestLevel = 1925,
+        MaxLevel = 1975
+    },
+    Reborn_Skeleton = {
+        Enemy = "Reborn Skeleton",
+        LowestLevel = 1975,
+        MaxLevel = 2000
+    },
+    Living_Zombie = {
+        Enemy = "Living Zombie",
+        LowestLevel = 2000,
+        MaxLevel = 2025
+    },
+    Demonic_Soul = {
+        Enemy = "Demonic Soul",
+        LowestLevel = 2025,
+        MaxLevel = 2050
+    },
+    Posessed_Mummy = {
+        Enemy = "Posessed Mummy",
+        LowestLevel = 2050,
+        MaxLevel = 2075
+    },
+    Peanut_Scout = {
+        Enemy = "Peanut Scout",
+        LowestLevel = 2075,
+        MaxLevel = 2100
+    },
+    Peanut_President = {
+        Enemy = "Peanut President",
+        LowestLevel = 2100,
+        MaxLevel = 2125
+    },
+    Ice_Cream_Chef = {
+        Enemy = "Ice Cream Chef",
+        LowestLevel = 2125,
+        MaxLevel = 2150
+    },
+    Ice_Cream_Commander = {
+        Enemy = "Ice Cream Commander",
+        LowestLevel = 2150,
+        MaxLevel = 2200
+    },
+    Cookie_Crafter = {
+        Enemy = "Cookie Crafter",
+        LowestLevel = 2200,
+        MaxLevel = 2225
+    },
+    Cake_Guard = {
+        Enemy = "Cake Guard",
+        LowestLevel = 2225,
+        MaxLevel = 2250
+    },
+    Baking_Staff = {
+        Enemy = "Baking Staff",
+        LowestLevel = 2250,
+        MaxLevel = 2275
+    },
+    Head_Baker = {
+        Enemy = "Head Baker",
+        LowestLevel = 2275,
+        MaxLevel = 2400
     }
 }
 
@@ -723,16 +1105,20 @@ end
 
 local FirstSea = {}
 local SecondSea = {}
+local ThirdSea = {}
 
 for i,v in pairs(Quests) do
     if v.World == 1 then
         table.insert(FirstSea, v.EnemyName)
     elseif v.World == 2 then
         table.insert(SecondSea, v.EnemyName)
+    elseif v.World == 3 then
+        table.insert(ThirdSea, v.EnemyName)
     end
 end
 
 QuestsData.FirstSea = FirstSea
 QuestsData.SecondSea = SecondSea
+QuestsData.ThirdSea = ThirdSea
 
 return QuestsData
