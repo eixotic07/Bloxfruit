@@ -815,7 +815,7 @@ local Levels = {
     Gallery_Pirate = {
         Enemy = "Gallery Pirate",
         LowestLevel = 625,
-        MaxLevel = 2400
+        MaxLevel = 700
     },
 
 
@@ -930,7 +930,7 @@ local Levels = {
     Water_Fighter = {
         Enemy = "Water Fighter",
         LowestLevel = 1450,
-        MaxLevel = 2400
+        MaxLevel = 1500
     },
 
     
