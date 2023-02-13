@@ -1074,7 +1074,7 @@ QuestsData.Quests = Quests
 function QuestsData.getQuest(Enemy)
     for i,v in pairs(game.Workspace.NPCs:GetChildren()) do
         for i,k in pairs(Quests) do
-            if v.Name:find(k.QuestGiver) and k.EnemyName == Enemy then
+            if v.Name == k.QuestGiver and k.EnemyName == Enemy then
                 return v, k
             end
         end
