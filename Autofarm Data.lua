@@ -550,7 +550,7 @@ local Quests = {
         QuestName = "DeepForestIsland",
         EnemyName = "Forest Pirate",
         LevelQuest = 1,
-        CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247),
+        CFramePos = CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247),
         QuestGiver = "",
         World = 3
     },
@@ -559,7 +559,7 @@ local Quests = {
         QuestName = "DeepForestQuest",
         EnemyName = "Mythological Pirate",
         LevelQuest = 2,
-        CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247),
+        CFramePos = CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247),
         QuestGiver = "",
         World = 3
     },
