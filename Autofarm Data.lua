@@ -695,7 +695,7 @@ local Levels = {
     Bandit = {
         Enemy = "Bandit",
         LowestLevel = 0,
-        MaxLevel = 5,
+        MaxLevel = 14,
     },
     Monkey = {
         Enemy = "Monkey",
