@@ -556,7 +556,7 @@ local Quests = {
     },
     Mythological_Pirate = {
         Enemy = "Mythological Pirate [Lv. 1850]",
-        QuestName = "DeepForestQuest",
+        QuestName = "DeepForestIsland",
         EnemyName = "Mythological Pirate",
         LevelQuest = 2,
         CFramePos = CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247),
