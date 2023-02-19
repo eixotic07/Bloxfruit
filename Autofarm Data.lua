@@ -1087,9 +1087,11 @@ function QuestsData.getQuest(Enemy)
     end
 end
 
-function QuestsData.CheckForQuest()
+function CheckForQuest(Enemy)
 	if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible then
-		return true
+		if game:GetService("Players").elmorroverde4.PlayerGui.Main.Quest.Container.QuestTitle.Title:find(Enemy) then
+            return true
+        end
 	end
 
 	return false
