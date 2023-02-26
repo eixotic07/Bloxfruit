@@ -688,6 +688,60 @@ local Quests = {
         CFramePos = CFrame.new(-1928.31763, 37.7296638, -12840.626, 0.951068401, -0, -0.308980465, 0, 1, -0, 0.308980465, 0, 0.951068401),
         QuestGiver = "",
         World = 3
+    },
+    Cocoa_Warrior = {
+        Enemy = "Cocoa Warrior [Lv. 2300]",
+        QuestName = "ChocQuest1",
+        EnemyName = "Cocoa Warrior",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(231.75, 23.90030288696289, -12200.2919921875),
+        QuestGiver = " ",
+        World = 3
+    },
+    Chocolate_Bar_Battler = {
+        Enemy = "Chocolate Bar Battler [Lv. 2325]",
+        QuestName = "ChocQuest1",
+        EnemyName = "Chocolate Bar Battler",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(231.75, 23.90030288696289, -12200.2919921875),
+        QuestGiver = " ",
+        World = 3
+    },
+    Sweet_Thief = {
+        Enemy = "Sweet Thief [Lv. 2350]",
+        QuestName = "ChocQuest2",
+        Enemy = "Sweet Thief",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(151.1982421875, 23.890714645385742, -12774.6171875),
+        QuestGiver = " ",
+        World = 3
+    },
+    Candy_Rebel = {
+        Enemy = "Candy Rebel [Lv. 2375]",
+        QuestName = "ChocQuest2",
+        Enemy = "Candy Rebel",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(151.1982421875, 23.890714645385742, -12774.6171875),
+        QuestGiver = " ",
+        World = 3
+    },
+    Candy_Pirate = {
+        Enemy = "Candy Pirate [Lv. 2400]",
+        QuestName = "CandyQuest1",
+        Enemy = "Candy Pirate",
+        LevelQuest = 1,
+        CFramePos = CFrame.new(-1149.3280029296875, 13.57590389251709, -14445.6142578125),,
+        QuestGiver = " ",
+        World = 3
+    },
+    Snow_Demon = {
+        Enemy = "Snow Demon [Lv. 2425]",
+        QuestName = "CandyQuest1",
+        Enemy = "Snow Demon",
+        LevelQuest = 2,
+        CFramePos = CFrame.new(-1149.3280029296875, 13.57590389251709, -14445.6142578125),,
+        QuestGiver = " ",
+        World = 3
     }
 }
 
@@ -1065,7 +1119,37 @@ local Levels = {
     Head_Baker = {
         Enemy = "Head Baker",
         LowestLevel = 2275,
+        MaxLevel = 2300
+    },
+    Cocoa_Warrior = {
+        Enemy = "Cocoa Warrior",
+        LowestLevel = 2300,
+        MaxLevel = 2325
+    },
+    Chocolate_Bar_Battler = {
+        Enemy = "Chocolate Bar Battler",
+        LowestLevel = 2325,
+        MaxLevel = 2350
+    },
+    Sweet_Thief = {
+        Enemy = "Sweet Thief",
+        LowestLevel = 2350,
+        MaxLevel = 2375
+    },
+    Candy_Rebel = {
+        Enemy = "Candy Rebel",
+        LowestLvel = 2375,
         MaxLevel = 2400
+    },
+    Candy_Pirate = {
+        Enemy = "Candy Pirate",
+        LowestLevel = 2400,
+        MaxLevel = 2425
+    },
+    Snow_Demon = {
+        Enemy = "Snow Demon",
+        LowestLevel = 2425,
+        MaxLevel = 2450
     }
 }
 
